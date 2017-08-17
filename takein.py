@@ -24,15 +24,15 @@ for al in range(0, len(instuff)):
     elif arra[al] == 'b':
         letters.b()
     elif arra[al] == 'c':
-        letters.c(1)
+        letters.c()
     elif arra[al] == 'i':
-        letters.i(1)
+        letters.i()
     elif arra[al] == 'o':
-        letters.o(1)
+        letters.o()
     elif arra[al] == 'u':
-        letters.u(1)
+        letters.u()
     elif arra[al] == 'n':
-        letters.n(1)
+        letters.n()
     elif arra[al] == 'd':
         letters.d()
     elif arra[al] == 'e':
@@ -101,6 +101,7 @@ for al in range(0, len(instuff)):
         letters.fullstop()
     else:
         letters.question()
+    letters.endin()
     al =+ 1
 #print(arra)
 s = input('Press enter to exit')

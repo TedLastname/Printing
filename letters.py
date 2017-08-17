@@ -1,7 +1,5 @@
 import turtle
 
-# REMEMBER: C, I, O, U, and N take a paramter, if it's 1 then it will give an ending
-
 def forward(x):
     turtle.forward(x)
     
@@ -21,7 +19,7 @@ def left(x):
     turtle.left(x)
     
 def endin():
-    color(1,1,1)
+    white()
     half()
     tleft()
     
@@ -42,13 +40,6 @@ def tfull():
     
 def dub():
     forward(40)
-
-def dot():
-    turtle.width(5)
-    for i in range(1,3):
-        right(90)
-        forward(1)
-    turtle.width(2)
     
 def a():
     color(0,0,0)
@@ -67,7 +58,6 @@ def a():
     half()
     tfull()
     half()
-    endin()
 
 def b():
     color(0,0,0)
@@ -82,9 +72,8 @@ def b():
     half()
     tfull()
     half()
-    endin()
 
-def c(b):
+def c():
     color(0,0,0)
     full()
     tright()
@@ -97,21 +86,18 @@ def c(b):
     half()
     tfull()
     half()
-    if b == 1:
-        endin()
     
 
 def d():
-    c(0)
+    c()
     tleft()
     dub()
     tfull()
     dub()
     tleft()
-    endin()
 
 def e():
-    c(0)
+    c()
     tleft()
     color(1,1,1)
     half()
@@ -127,7 +113,6 @@ def e():
     color(1,1,1)
     half()
     tleft()
-    endin()
 
 def f():
     color(0,0,0)
@@ -148,30 +133,22 @@ def f():
     color(1,1,1)
     full()
     tleft()
-    endin()
 
 def g():
-    color(0,0,0)
+    c()
+    tleft()
     full()
-    tright()
-    half()
-    tright()
+    tfull()
     dub()
     tright()
     half()
     tright()
     half()
-    tfull()
+    white()
     half()
-    tleft()
+    black()
+    tright()
     half()
-    tleft()
-    full()
-    tleft()
-    half()
-    tfull()
-    half()
-    endin()
 
 def h():
     color(0,0,0)
@@ -183,26 +160,25 @@ def h():
     tright()
     full()
     tleft()
-    endin()
 
-def i(e):
+def i():
     color(0,0,0)
     full()
     color(1,1,1)
     half()
     color(0,0,0)
-    dot()
+    turtle.circle(2)
+    tfull()
     color(1,1,1)
     half()
     color(0,0,0)
-    if e == 1:
-        full()
-        tleft()
-        endin()
+    full()
+    tleft()
 
 def j():
-    i(0)
-    dub()
+    i()
+    tright()
+    full()
     tright()
     half()
     tright()
@@ -214,7 +190,6 @@ def j():
     tleft()
     full()
     tright()
-    endin()
     
 def k():
     color(0,0,0)
@@ -233,7 +208,6 @@ def k():
     half()
     tleft()
     forward(2)
-    endin()
 
 def l():
     black()
@@ -243,9 +217,8 @@ def l():
     tleft()
     white()
     forward(5)
-    endin()
 
-def n(b):
+def n():
     black()
     full()
     tright()
@@ -253,27 +226,23 @@ def n(b):
     tright()
     full()
     tleft()
-    if b == 1:
-        endin()
 
 def m():
-    n(0)
+    n()
     tleft()
-    n(1)
+    n()
 
-def o(b):
-    c(0)
+def o():
+    c()
     tleft()
     full()
     tfull()
     full()
-    if b == 1:
-        tleft()
-        endin()
+    tleft()
     
 def p():
-    o(0)
-    tright()
+    o()
+    tfull()
     half()
     tleft()
     full()
@@ -281,10 +250,10 @@ def p():
     full()
     tright()
     half()
-    endin()
 
 def q():
-    o(0)
+    o()
+    tright()
     full()
     tleft()
     forward(2)
@@ -293,7 +262,6 @@ def q():
     tright()
     full()
     tright()
-    endin()
 
 def r():
     black()
@@ -304,7 +272,6 @@ def r():
     white()
     full()
     tleft()
-    endin()
 
 def s():
     black()
@@ -324,7 +291,6 @@ def s():
     black()
     half()
     tleft()
-    endin()
 
 def t():
     black()
@@ -337,9 +303,8 @@ def t():
     white()
     full()
     tleft()
-    endin()
     
-def u(b):
+def u():
     black()
     full()
     tfull()
@@ -350,9 +315,7 @@ def u(b):
     full()
     tfull()
     full()
-    if b == 1:
-        tleft()
-        endin()
+    tleft()
 
 def v():
     full()
@@ -365,14 +328,14 @@ def v():
     white()
     full()
     tleft()
-    endin()
 
 def w():
-    u(0)
-    tfull()
-    u(1)
+    u()
+    tleft()
+    u()
 
 def x():
+    white()
     full()
     black()
     tright()
@@ -397,10 +360,10 @@ def x():
     full()
     tleft()
     forward(8)
-    endin()
     
 def y():
-    u(0)
+    u()
+    tright()
     full()
     tright()
     half()
@@ -413,7 +376,6 @@ def y():
     tleft()
     full()
     tright()
-    endin()
 
 def z():
     full()
@@ -434,7 +396,6 @@ def z():
     white()
     full()
     tleft()
-    endin()
 
 def uno():
     black()
@@ -454,34 +415,30 @@ def uno():
     dub()
     tleft()
     half()
-    endin()
 
 def deux():
     black()
-    half()
+    full()
     tright()
     full()
     tleft()
     full()
+    tleft()
+    full()
+    tleft()
     half()
+    white()
+    half()
+    black()
+    full()
     tleft()
     full()
     tleft()
     half()
     tfull()
     half()
-    tright()
-    full()
-    tright()
-    full()
-    half()
-    tright()
-    full()
     tleft()
-    half()
-    tleft()
-    full()
-    endin()
+
 
 def trois():
     black()
@@ -504,7 +461,6 @@ def trois():
     full()
     tfull()
     full()
-    endin()
 
 def quatre():
     full()
@@ -519,7 +475,6 @@ def quatre():
     tfull()
     dub()
     tleft()
-    endin()
 
 def cinq():
     black()
@@ -546,7 +501,6 @@ def cinq():
     full()
     tfull()
     full()
-    endin()
 
 def six():
     black()
@@ -569,7 +523,6 @@ def six():
     full()
     tfull()
     full()
-    endin()
 
 def sept():
     full()
@@ -587,7 +540,6 @@ def sept():
     tright()
     full()
     tleft()
-    endin()
 
 def huit():
     black()
@@ -606,7 +558,6 @@ def huit():
     full()
     tfull()
     full()
-    endin()
 
 def neuf():
     full()
@@ -630,7 +581,6 @@ def neuf():
     tfull()
     full()
     tleft()
-    endin()
 
 def zero():
     black()
@@ -643,12 +593,10 @@ def zero():
     full()
     tfull()
     full()
-    endin()
 
 def space():
     tright()
     full()
-    endin()
 
 def question():
     black()
@@ -668,7 +616,6 @@ def question():
     tleft()
     white()
     full()
-    endin()
 
 def apost():
     full()
@@ -681,7 +628,6 @@ def apost():
     half()
     full()
     tleft()
-    endin()
 
 def comma():
     tfull()
@@ -690,12 +636,9 @@ def comma():
     tfull()
     half()
     tright()
-    endin()
 
 def bang():
     black()
-    dot()
-    dot()
     white()
     half()
     black()
@@ -707,9 +650,7 @@ def bang():
     tright()
     dub()
     tleft()
-    endin()
+    
 def fullstop():
     black()
-    dot()
-    tleft()
-    endin()
+    tright()
