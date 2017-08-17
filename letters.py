@@ -42,7 +42,6 @@ def dub():
     forward(40)
     
 def a():
-    color(0,0,0)
     half()
     tright()
     half()
@@ -60,7 +59,6 @@ def a():
     half()
 
 def b():
-    color(0,0,0)
     dub()
     tfull()
     full()
@@ -74,7 +72,6 @@ def b():
     half()
 
 def c():
-    color(0,0,0)
     full()
     tright()
     half()
@@ -99,9 +96,9 @@ def d():
 def e():
     c()
     tleft()
-    color(1,1,1)
+    white()
     half()
-    color(0,0,0)
+    black()
     tleft()
     half()
     tfull()
@@ -110,12 +107,11 @@ def e():
     half()
     tfull()
     half()
-    color(1,1,1)
+    white()
     half()
     tleft()
 
 def f():
-    color(0,0,0)
     dub()
     tright()
     half()
@@ -130,7 +126,7 @@ def f():
     tleft()
     half()
     tright()
-    color(1,1,1)
+    white()
     full()
     tleft()
 
@@ -151,7 +147,6 @@ def g():
     half()
 
 def h():
-    color(0,0,0)
     dub()
     tfull()
     full()
@@ -162,16 +157,15 @@ def h():
     tleft()
 
 def i():
-    color(0,0,0)
     full()
-    color(1,1,1)
+    white()
     half()
-    color(0,0,0)
+    black()
     turtle.circle(2)
     tfull()
-    color(1,1,1)
+    white()
     half()
-    color(0,0,0)
+    black()
     full()
     tleft()
 
@@ -192,7 +186,6 @@ def j():
     tright()
     
 def k():
-    color(0,0,0)
     dub()
     tfull()
     full()
@@ -210,7 +203,6 @@ def k():
     forward(2)
 
 def l():
-    black()
     dub()
     tfull()
     dub()
@@ -219,7 +211,6 @@ def l():
     forward(5)
 
 def n():
-    black()
     full()
     tright()
     half()
@@ -264,7 +255,6 @@ def q():
     tright()
 
 def r():
-    black()
     full()
     tright()
     half()
@@ -274,7 +264,6 @@ def r():
     tleft()
 
 def s():
-    black()
     tright()
     half()
     tleft()
@@ -293,7 +282,6 @@ def s():
     tleft()
 
 def t():
-    black()
     dub()
     tfull()
     full()
@@ -305,7 +293,6 @@ def t():
     tleft()
     
 def u():
-    black()
     full()
     tfull()
     full()
@@ -318,6 +305,7 @@ def u():
     tleft()
 
 def v():
+    white()
     full()
     right(150)
     black()
@@ -378,6 +366,7 @@ def y():
     tright()
 
 def z():
+    white()
     full()
     black()
     tright()
@@ -398,7 +387,6 @@ def z():
     tleft()
 
 def uno():
-    black()
     tright()
     half()
     tleft()
@@ -417,7 +405,6 @@ def uno():
     half()
 
 def deux():
-    black()
     full()
     tright()
     full()
@@ -441,7 +428,6 @@ def deux():
 
 
 def trois():
-    black()
     half()
     white()
     full()
@@ -463,6 +449,7 @@ def trois():
     full()
 
 def quatre():
+    white()
     full()
     black()
     full()
@@ -477,7 +464,6 @@ def quatre():
     tleft()
 
 def cinq():
-    black()
     half()
     white()
     half()
@@ -503,7 +489,6 @@ def cinq():
     full()
 
 def six():
-    black()
     dub()
     tright()
     full()
@@ -525,6 +510,7 @@ def six():
     full()
 
 def sept():
+    white()
     full()
     half()
     black()
@@ -542,7 +528,6 @@ def sept():
     tleft()
 
 def huit():
-    black()
     dub()
     tright()
     full()
@@ -560,6 +545,7 @@ def huit():
     full()
 
 def neuf():
+    white()
     full()
     black()
     full()
@@ -583,7 +569,6 @@ def neuf():
     tleft()
 
 def zero():
-    black()
     dub()
     tright()
     full()
@@ -595,11 +580,11 @@ def zero():
     full()
 
 def space():
+    white()
     tright()
     full()
 
 def question():
-    black()
     full()
     tright()
     full()
@@ -618,6 +603,7 @@ def question():
     full()
 
 def apost():
+    white()
     full()
     half()
     black()
@@ -630,6 +616,7 @@ def apost():
     tleft()
 
 def comma():
+    white()
     tfull()
     black()
     half()
@@ -638,7 +625,7 @@ def comma():
     tright()
 
 def bang():
-    black()
+    turtle.circle(2)
     white()
     half()
     black()
@@ -652,5 +639,413 @@ def bang():
     tleft()
     
 def fullstop():
+    turtle.circle(2)
+    tright()
+
+def capa():
+    dub()
+    tright()
+    half()
+    tright()
+    full()
+    tright()
+    half()
+    tfull()
+    half()
+    tright()
+    full()
+    tleft()
+
+def capb():
+    dub()
+    tright()
+    forward(5)
+    tright()
+    full()
+    tright()
+    forward(5)
+    tfull()
+    half()
+    tright()
+    full()
+    tright()
+    half()
+    tfull()
+    half()
+
+def capc():
+    dub()
+    tright()
+    half()
+    tright()
+    white()
+    dub()
+    tright()
+    black()
+    half()
+    tfull()
+    half()
+
+def capd():
+    dub()
+    tright()
+    half()
+    tright()
+    dub()
+    tright()
+    half()
+    tfull()
+    half()
+
+def cape():
+    capc()
+    tleft()
+    white()
+    full()
+    tleft()
+    black()
+    half()
+    tfull()
+    half()
+    tright()
+    white()
+    full()
+    tleft()
+def capf():
+    dub()
+    tright()
+    half()
+    tright()
+    white()
+    full()
+    tright()
+    black()
+    half()
+    tfull()
+    half()
+    tright()
+    white()
+    full()
+    tleft()
+
+def capg():
+    dub()
+    tright()
+    half()
+    tright()
+    white()
+    full()
+    tright()
+    black()
+    forward(5)
+    tfull()
+    forward(5)
+    tright()
+    full()
+    tright()
+    half()
+    tfull()
+    half()
+
+def caph():
+    dub()
+    tfull()
+    full()
+    tleft()
+    half()
+    tleft()
+    full()
+    tfull()
+    dub()
+    tleft()
+
+def capi():
+    tright()
+    forward(5)
+    tleft()
+    dub()
+    tleft()
+    forward(5)
+    tfull()
+    half()
+    white()
+    tright()
+    dub()
     black()
     tright()
+    forward(5)
+    tfull()
+    forward(5)
+
+def capj():
+    half()
+    tfull()
+    half()
+    tleft()
+    forward(5)
+    tleft()
+    dub()
+    tleft()
+    forward(5)
+    tfull()
+    half()
+    tright()
+    white()
+    dub()
+    tleft()
+
+def capk():
+    dub()
+    tfull()
+    half()
+    tleft()
+    half()
+    tright()
+    full()
+    tright()
+    half()
+    tfull()
+    forward(8)
+    tright()
+    half()
+    tleft()
+    white()
+    forward(2)
+
+def capl():
+    dub()
+    tfull()
+    dub()
+    tleft()
+    half()
+
+def capn():
+    dub()
+    tright()
+    half()
+    tright()
+    dub()
+    tleft()
+
+def capm():
+    capn()
+    tleft()
+    capn()
+
+def capo():
+    capn()
+    tfull()
+    half()
+    tfull()
+    half()
+
+def capp():
+    dub()
+    tright()
+    half()
+    tright()
+    full()
+    tright()
+    half()
+    tfull()
+    half()
+    tright()
+    white()
+    full()
+    tleft()
+
+def capq():
+    capo()
+    tleft()
+    left(45)
+    half()
+    tfull()
+    full()
+    tfull()
+    half()
+    right(45)
+    tright()
+
+def capr():
+    dub()
+    tright()
+    half()
+    tright()
+    full()
+    tright()
+    half()
+    tfull()
+    forward(8)
+    tright()
+    full()
+    tleft()
+    white()
+    forward(2)
+
+def caps():
+    half()
+    tright()
+    forward(5)
+    tfull()
+    forward(5)
+    tright()
+    white()
+    half()
+    black()
+    full()
+    tright()
+    half()
+    tright()
+    half()
+    tright()
+    forward(5)
+    tfull()
+    forward(5)
+    tright()
+    white()
+    half()
+    black()
+    tright()
+    half()
+    tfull()
+    half()
+    tright()
+    full()
+    tright()
+    half()
+    tfull()
+    half()
+
+def capt():
+    white()
+    dub()
+    black()
+    tright()
+    half()
+    tfull()
+    forward(5)
+    tleft()
+    dub()
+    tleft()
+    white()
+    forward(5)
+
+def capu():
+    dub()
+    tfull()
+    dub()
+    tleft()
+    half()
+    tleft()
+    dub()
+    tfull()
+    dub()
+    tleft()
+
+def capv():
+    white()
+    half()
+    black()
+    full()
+    half()
+    tfull()
+    full()
+    half()
+    left(45)
+    half()
+    left(90)
+    half()
+    left(45)
+    half()
+    full()
+    tfull()
+    half()
+    full()
+    white()
+    half()
+    tleft()
+
+def capw():
+    capu()
+    tleft()
+    capu()
+
+def capx():
+    white()
+    dub()
+    black()
+    tright()
+    forward(4)
+    tright()
+    dub()
+    tright()
+    forward(4)
+    tfull()
+    forward(4)
+    tleft()
+    full()
+    tright()
+    forward(4)
+    tleft()
+    full()
+    tright()
+    forward(4)
+    tright()
+    white()
+    dub()
+    black()
+    tright()
+    forward(4)
+    tright()
+    full()
+    tright()
+    white()
+    forward(4)
+    tright()
+    full()
+    tleft()
+    
+def capy():
+    white()
+    tright()
+    forward(5)
+    tleft()
+    black()
+    full()
+    half()
+    left(45)
+    half()
+    tfull()
+    half()
+    tleft()
+    half()
+    tfull()
+    half()
+    left(45)
+    full()
+    half()
+    tleft()
+    white()
+    half()
+
+def capz():
+    white()
+    dub()
+    black()
+    tright()
+    half()
+    right(120)
+    full()
+    half()
+    left(120)
+    half()
+    tfull()
+    half()
+    right(120)
+    full()
+    half()
+    right(150)
+    white()
+    dub()
+    tleft()
+    

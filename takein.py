@@ -1,7 +1,7 @@
 import letters
 import turtle
 
-instuff = input('What would you like to print?').lower()
+instuff = input('What would you like to print?')
 arra = []
 el = 0
 al=0
@@ -11,12 +11,13 @@ while el<len(instuff):
 
 turtle.color(1,1,1)
 turtle.right(180)
-turtle.forward(300)
+turtle.forward((len(instuff)*20)//2)
 turtle.color(0,0,0)
 turtle.right(90)
 turtle.width(2)
 
 for al in range(0, len(instuff)):
+    letters.black()
     if arra[al] == 'a':
         letters.a()
     elif arra[al] == ' ':
@@ -99,9 +100,60 @@ for al in range(0, len(instuff)):
         letters.bang()
     elif arra[al] == '.':
         letters.fullstop()
+    elif arra[al] == 'A':
+        letters.capa()
+    elif arra[al] == 'B':
+        letters.capb()
+    elif arra[al] == 'C':
+        letters.capc()
+    elif arra[al] == 'D':
+        letters.capd()
+    elif arra[al] == 'E':
+        letters.cape()
+    elif arra[al] == 'F':
+        letters.capf()
+    elif arra[al] == 'G':
+        letters.capg()
+    elif arra[al] == 'H':
+        letters.caph()
+    elif arra[al] == 'I':
+        letters.capi()
+    elif arra[al] == 'J':
+        letters.capj()
+    elif arra[al] == 'K':
+        letters.capk()
+    elif arra[al] == 'L':
+        letters.capl()
+    elif arra[al] == 'M':
+        letters.capm()
+    elif arra[al] == 'N':
+        letters.capn()
+    elif arra[al] == 'O':
+        letters.capo()
+    elif arra[al] == 'P':
+        letters.capp()
+    elif arra[al] == 'Q':
+        letters.capq()
+    elif arra[al] == 'R':
+        letters.capr()
+    elif arra[al] == 'S':
+        letters.caps()
+    elif arra[al] == 'T':
+        letters.capt()
+    elif arra[al] == 'U':
+        letters.capu()
+    elif arra[al] == 'V':
+        letters.capv()
+    elif arra[al] == 'W':
+        letters.capw()
+    elif arra[al] == 'X':
+        letters.capx()
+    elif arra[al] == 'Y':
+        letters.capy()
+    elif arra[al] == 'Z':
+        letters.capz()
     else:
         letters.question()
     letters.endin()
     al =+ 1
-#print(arra)
 s = input('Press enter to exit')
